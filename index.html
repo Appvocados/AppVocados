@@ -35,8 +35,7 @@
 <meta property="og:image" content="https://img-global.cpcdn.com/recipes/0ca7763a987e9212/751x532cq70/ensalada-de-aguacate-con-tomate-y-mozzarella-al-albahaca-foto-principal.jpg" alt="Ensalada de Aguacate y Tomate"> <!-- Imagen para compartir en redes sociales -->
 <meta property="og:url" content="https://appvocados.com/"> <!-- URL del sitio para compartir en redes sociales -->
 <meta property="og:type" content="website"> <!-- Tipo de contenido para compartir en redes sociales -->
-  <style>
-    
+   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #dcedc1;
@@ -67,7 +66,7 @@
     }
 
     .recipe-image {
-      max-width: 25%;
+      width: 30%;
       height: auto;
       border-radius: 6px;
       margin-bottom: 10px;
@@ -75,11 +74,6 @@
 
     h2 {
       color: #5e734d;
-    }
-
-    #segundoT{
-            text-align: center;
-
     }
 
     p, h3, ul, ol, li {
@@ -115,28 +109,63 @@
       background-color: #4b5f3f;
     }
 
+    p {
+            text-align: justify;
+            margin: 0 20px; /* Ajusta el valor de margen según tus preferencias */
+        }
+
   </style>
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9150135786534340"
-     crossorigin="anonymous"></script>
+<style>
+  /* ... tu estilo CSS actual ... */
+  #enlaces {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T28PTF12ME"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  #enlaces a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: bold;
+  }
 
-  gtag('config', 'G-T28PTF12ME');
-</script>
-  
-</script>
-  
+    /* ... tu estilo CSS actual ... */
+    #enlaces {
+      margin-top: 20px;
+    }
+
+    #enlaces a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: #4caf50;
+      font-weight: bold;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    #enlaces a:hover {
+      transform: scale(1.1);
+    }
+  </style>
+
+
 </head>
 <body>
 
     <h1>Recetas con Aguacate</h1>
-    <h2 id="segundoT">Deliciosas Recetas Clásicas y Saludables con Aguacate</h2>
+
+    <div id="enlaces">
+      <h2>Todo lo que necesitas saber del aguacate</h2>
+      <div>
+        <a href="variedadesDeAguacate.html">Variedades de Aguacate</a>
+        <a href="aguacateEnElMundo.html">La importancia del aguacate en USA y el Mundo</a>
+      </div>
+    </div>
 
     <div class="recipe" onclick="mostrarMensaje('Guacamole')">
         <!-- ... (Código de la receta) -->
