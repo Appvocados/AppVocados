@@ -46,7 +46,9 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T28PTF12ME"></script>
 
  
-  <style>
+  <link rel="stylesheet" href="styleWhatsapp.css"> 
+
+<style>
     body {
       font-family: Arial, sans-serif;
       background-color: #dcedc1;
@@ -65,8 +67,8 @@
     .recipe {
       border: 1px solid #b2d8a7;
       border-radius: 8px;
-      margin: 5px;
-      padding: 5px;
+      margin: 20px;
+      padding: 20px;
       background-color: #f4f9e9;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       transition: transform 0.2s ease-in-out;
@@ -85,8 +87,6 @@
 
     h2 {
       color: #5e734d;
-           text-align: center;
-
     }
 
     p, h3, ul, ol, li {
@@ -131,7 +131,7 @@
 
 <style>
   /* ... tu estilo CSS actual ... */
-  #enlaces {
+  .enlaces {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@
     align-content: center;
   }
 
-  #enlaces a {
+  .enlaces a {
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
@@ -148,11 +148,12 @@
   }
 
     /* ... tu estilo CSS actual ... */
-    #enlaces {
+    .enlaces {
       margin-top: 20px;
+      margin-bottom: 40px;
     }
 
-    #enlaces a {
+    .enlaces a {
       display: block;
       margin-bottom: 10px;
       text-decoration: none;
@@ -161,7 +162,7 @@
       transition: transform 0.3s ease-in-out;
     }
 
-    #enlaces a:hover {
+    .enlaces a:hover {
       transform: scale(1.1);
     }
   </style>
@@ -172,13 +173,15 @@
 
     <h1>Recetas con Aguacate</h1>
 
-    <div id="enlaces">
+    <div class="enlaces">
       <h2>Todo lo que necesitas saber del aguacate</h2>
       <div>
         <a href="variedadesDeAguacate.html">Variedades de Aguacate</a>
         <a href="aguacateEnElMundo.html">La importancia del aguacate en USA y el Mundo</a>
+        <a href="https://wa.me/+524341696630" target="_blank" >Compra aguacate hass de huerto órganico <i id="iconos" class="fa-brands fa-square-whatsapp fa-lg" style="color: #06320d;"></i></a>
+    
       </div>
-    </div>
+</div>
 
     <div class="recipe" onclick="mostrarMensaje('Guacamole')">
         <!-- ... (Código de la receta) -->
@@ -347,5 +350,12 @@
       window.open('https://www.pinterest.com/pin/create/button/?url=' + encodeURIComponent(window.location.href) + '&media=imagen.jpg&description=¡Mira esta deliciosa receta de guacamole!', '_blank');
     }
   </script>
+
+
+<!-- Script de libreria de iconos -->
+<script src="https://kit.fontawesome.com/d6afc9d0fc.js" crossorigin="anonymous"></script>
+    
+
+  
 </body>
 </html>
